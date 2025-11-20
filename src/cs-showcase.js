@@ -1,0 +1,1 @@
+var total=$(".cs-showcase-card.v3").length;total>4?$("#load-more-cs").show():$("#load-more-cs").hide(),$("#extra-cs").hide(),$("#load-more-cs").click(function(){$("#load-more-cs").hide(),$("#extra-cs").show()});

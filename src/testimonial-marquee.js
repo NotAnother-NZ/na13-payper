@@ -1,0 +1,1 @@
+$(document).ready(function(){console.log("DOM fully loaded and parsed");var e=$(".client-testimonials-1");console.log(e);var a=$(".cs-showcase-card.review.new");console.log(a),a.each(function(a){$(this).appendTo(e)}),$(".testimonial-list-wrapper").hide()});

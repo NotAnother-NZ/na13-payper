@@ -1,0 +1,1 @@
+$("[data-click='stay-open']").each(function(){$(this).click().css("pointer-events","none")});

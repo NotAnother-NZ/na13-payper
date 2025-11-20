@@ -1,0 +1,1 @@
+$("#download-link").click(function(){var e=document.getElementById("img-to-download").src,t=document.getElementById("img-name").textContent;fetch(e).then(e=>e.blob()).then(e=>{var n=URL.createObjectURL(e),c=document.createElement("a");c.href=n,c.download=t+".png",c.click(),URL.revokeObjectURL(n)}).catch(e=>{console.error("Error fetching the image:",e)})});

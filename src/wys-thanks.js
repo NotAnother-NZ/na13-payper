@@ -1,0 +1,1 @@
+$(document).ready(function(){if(null===sessionStorage.getItem("clientName")||null===sessionStorage.getItem("clientBusiness"))window.location.href="/404";else{var e=sessionStorage.getItem("clientName"),t=sessionStorage.getItem("clientBusiness");$("#thanks").text("Thanks "+e+", great to hear your story and learn about "+t+".")}});

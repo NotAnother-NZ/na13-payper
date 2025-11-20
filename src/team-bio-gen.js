@@ -1,0 +1,1 @@
+let shortBio=[];$(".long-bio").each(function(t){for(var o="",e=$(this).text().split(" "),h=0;h<e.length;h++)if(o.length+e[h].length<128)o+=e[h]+" ";else break;o+="...",shortBio.push(o)}),$(".long-bio-calc").each(function(t){$(this).text(shortBio[t])});

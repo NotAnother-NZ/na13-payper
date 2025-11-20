@@ -1,0 +1,1 @@
+var readText=[];$("[data-read=true]").each(function(){readText.push(this.innerText)});var readTextAll=readText.join(" ");let readingSpeed=180;var readingTime=Math.ceil(readTextAll.split(" ").length/readingSpeed);$("#reading-time").text(readingTime+" min read");

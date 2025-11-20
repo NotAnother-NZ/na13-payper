@@ -1,0 +1,1 @@
+if(window.innerWidth>768){function t(){document.querySelectorAll("[data-indent]").forEach(function(t){var e=t.getAttribute("data-indent"),n=document.getElementById(e);if(n){var i=n.offsetWidth;t.style.textIndent=i+"px"}})}document.addEventListener("DOMContentLoaded",function(){t()}),window.addEventListener("resize",function(){t()})}

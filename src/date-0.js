@@ -1,0 +1,1 @@
+$(".date-0").each(function(){var t=$(this).text().split(".");if(3===t.length){var a,e=t[0].padStart(2,"0"),i=`${e}.${t[1].padStart(2,"0")}.${t[2]}`;$(this).text(i)}});
